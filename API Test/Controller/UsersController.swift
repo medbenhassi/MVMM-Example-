@@ -10,7 +10,7 @@ import UIKit
 class UsersController: UIViewController {
     @IBOutlet weak var userTableview: UITableView!
     
-    var listUser = [User]()
+    var listUser = Users()
     
     override func viewDidLoad() {
         super.viewDidLoad()
