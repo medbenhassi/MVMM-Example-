@@ -28,7 +28,7 @@ class userCell: UITableViewCell {
         }
         switch user.status {
         case .inactive:
-            disponiblityLabel.text = "Inactice"
+            disponiblityLabel.text = "Inactive"
             disponiblityLabel.textColor = .red
         case .active:
             disponiblityLabel.text = "Active"
